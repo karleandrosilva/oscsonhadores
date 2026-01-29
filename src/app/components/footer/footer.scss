@@ -1,0 +1,78 @@
+footer {
+    margin-top: 30px;
+    height: 500px;
+    background-color: aqua;
+}
+
+#footer-pages {
+    margin-top: 0px;
+}
+
+.footer-container {
+    background-color: var(--cor-primaria);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+
+footer li, a {
+    list-style: none;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#marca  {
+    display: block;
+    color: white;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer-contato, .footer-logo, .footer-menu {
+    padding: 10px 0px;
+}
+
+.redes {
+    display: flex;
+    padding-top: 20px;
+}
+
+.footer-menu li {
+    padding: 12px 0px;
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px ;
+    
+}
+
+.iconss {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    margin-right: 12px;
+}
+
+@media (max-width: 768px) {
+
+    footer {
+        height: 980px;
+    }
+
+    .footer-container {
+        display: block;
+        padding: 40px;
+    }
+    
+}

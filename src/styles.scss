@@ -1,0 +1,214 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+:root {
+    --cor-primaria: #88c2eb;
+    --cor-secundaria: #209ffa;
+    --cor-destaque: #ff69b4;
+}
+
+body {
+    background-color: white;
+    font-size: 18px;
+}
+
+.svg {
+    width: 20px;
+    position: relative;
+    top: 4px; /* move a imagem 20px para baixo */
+    left: 5px;
+}
+
+
+@media (max-width: 890px){
+
+    .hideMobile{
+        display: none;
+    }
+
+    nav {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .section-1 {
+        justify-content: center;
+        flex-direction: column;
+        /* padding: 40px 0px 0px 0px; */
+        font-size: 12px;
+        height: 700px;
+        
+    }
+
+    #testii {
+        margin-top: 30vw;
+    }
+    
+    #img1 {
+        display: none;
+    }
+    
+    #img2 {
+        display: block;
+    }
+
+    .section-1 img {
+        height: 250px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        padding: 12px;
+    }
+
+    .section-1-2  {
+       display: none;
+    }
+
+    .section-1-3  {
+       display: block;
+       padding-top: 40px;
+    }
+
+    .section-1-3 h2 {
+        font-size: 24px;
+
+    }
+
+    .doacao-section {
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 890px){
+    .hideDesktop{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        background-position: center;
+        height: 450px;  /* tava 400 */
+    }
+
+    h1 {
+        font-size: 27px;
+        max-width: 400px;
+        line-height: 1.2; 
+    }
+
+    .section-header p {
+        max-width: 280px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .section-acao {
+        flex-direction: column;
+        
+    }
+
+    .section-doar, .section-voluntariar {
+        width: 100%;
+    }
+
+    .section-voluntariar p {
+        width: 100%;
+    }
+
+    .btn-2 {
+        width: 100%;
+        margin: 20px 10px 0 0;
+    }
+
+    .section-1 {
+        justify-content: center;
+        flex-direction: column;
+        font-size: 12px;
+        min-height: 850px;
+    }
+
+    .section-2-1 {
+        /* display: block;
+         */
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        flex-direction: column;
+        height: 400px;
+        align-items: initial;
+    }
+
+    .section-2-1 h3 {
+        font-size: 24px;
+    }
+
+    .section-2-1  .btn-2 {
+        margin: 0px;
+        width: 100%;
+        align-items: normal;
+    }
+
+    .section-3 {
+        height: 700px;
+    }
+
+    .section-4 {
+        padding: 0px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .propositos {
+        display: block;
+    }
+
+    
+
+
+    .numeros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        text-align: center;
+        padding-top: 250px;
+        padding-bottom: 50px;
+        height: 100%;
+        /* background-color: rgb(204, 195, 26); */
+    }
+
+}
+
+
+/* 
+@media (max-width: 450px) {
+
+    .section-1 {
+        
+        height: 100%; 
+    }
+
+} */
+
