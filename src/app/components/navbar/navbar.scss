@@ -1,0 +1,96 @@
+nav{
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+
+.menu {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 60px;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+#aa {
+    padding: 0;
+}
+
+nav a:hover{
+    color: #dcdcdc;
+}
+
+.icon{
+    fill: #fff;
+}
+
+.logotipo{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.sidebar{
+    list-style: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 280px;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.134);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    // display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    -webkit-backdrop-filter: blur(10px); /* Adicione esta linha primeiro, ela corrige o blur para o Safari*/
+    backdrop-filter: blur(10px);  /* Esta linha ativa o blur*/
+}
+
+@media (min-width: 930px){
+    .hideDesktop{
+        display: none;
+    }
+}
+
+@media (max-width: 930px) {
+
+    .hideMobile{
+        display: none;
+    }
+
+    nav {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .section-1 {
+        justify-content: center;
+        flex-direction: column;
+        /* padding: 40px 0px 0px 0px; */
+        font-size: 12px;
+        height: 700px;
+        
+    }
+}

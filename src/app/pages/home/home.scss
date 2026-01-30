@@ -1,0 +1,112 @@
+header {
+    padding: 0px 40px;
+    background-image: url('/imgs/teste2.jpg');
+    background-position: top;
+    background-size: cover;
+    color: white;
+    height: 450px;
+}
+
+.section-header {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* gap: 40px; */
+    
+    max-width: 700px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 1.2; 
+}
+
+.linhaY {
+    border-left: 3.5px solid  var(--cor-primaria); 
+    padding-left: 16px;
+    color: white; 
+    max-width: 550px;
+}
+
+.linhaX {
+    width: 100px;
+    height: 3px;
+    background-color: var(--cor-primaria);
+    margin: 20px 0;
+}
+
+/* SECTION ACÕES */
+
+.section-acao {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.section-doar {
+    width: 50%;
+    background-color: var(--cor-primaria);
+    padding: 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: left; */
+}
+
+.section-voluntariar {
+    width: 50%;
+    background-color: var(--cor-secundaria);
+    padding: 40px;
+}
+
+.section-voluntariar p {
+    width: 70%;
+}
+
+h3 {
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+}
+
+.section-doar .linhaX {
+    background-color: var(--cor-secundaria);
+}
+
+.btn-2 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 24px;
+    margin: 30px 10px 0 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    width: 60%;
+}
+
+/* PÁGINAS */
+
+.header-2 {
+    height: 350px;
+}
+
+.h1-2 {
+    font-size: 36px; 
+    padding-top: 50px;
+}
+
+.setinha {
+    height: 25px; 
+    padding: 0px 5px;
+}
+
+@media (max-width: 930px) {
+
+    header {
+        height: 550px;
+    }
+
+}
