@@ -103,10 +103,49 @@ h3 {
     padding: 0px 5px;
 }
 
+.svg {
+    width: 20px;
+    position: relative;
+    top: 4px; /* move a imagem 20px para baixo */
+    left: 5px;
+}
+
 @media (max-width: 930px) {
 
     header {
         height: 550px;
+    }
+
+    h1 {
+        font-size: 27px;
+        max-width: 400px;
+        line-height: 1.2; 
+    }
+
+    .section-header p {
+        max-width: 280px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .section-acao {
+        flex-direction: column;
+        
+    }
+
+    .section-doar, .section-voluntariar {
+        width: 100%;
+    }
+
+    .section-voluntariar p {
+        width: 100%;
+    }
+
+    .btn-2 {
+        width: 100%;
+        margin: 20px 10px 0 0;
     }
 
 }
