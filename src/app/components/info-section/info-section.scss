@@ -1,0 +1,95 @@
+h2 {
+    font-size: 40px;
+    line-height: 1.2; 
+}
+
+.section-1  .btn-2 {
+    background-color: var(--cor-primaria);
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vw;
+    padding: 0px 40px;
+    font-size: 12px;
+    height: 750px;
+    
+}
+
+.section-1 img {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#img2 {
+    display: none;
+}
+
+.section-1-2  {
+    padding: 0px 60px;
+}
+
+.section-1-2 p {
+    font-size: 18px;
+    max-width: 500px;
+}
+
+.section-1-3 {
+    display: none;
+}
+
+@media (max-width: 890px){
+
+    .section-1 {
+        justify-content: center;
+        flex-direction: column;
+        /* padding: 40px 0px 0px 0px; */
+        font-size: 12px;
+        height: 700px;
+        
+    }
+
+    #testii {
+        margin-top: 30vw;
+    }
+    
+    #img1 {
+        display: none;
+    }
+    
+    #img2 {
+        display: block;
+    }
+
+    .section-1 img {
+        height: 250px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        padding: 12px;
+    }
+
+    .section-1-2  {
+       display: none;
+    }
+
+    .section-1-3  {
+       display: block;
+       padding-top: 40px;
+    }
+
+    .section-1-3 h2 {
+        font-size: 24px;
+
+    }
+
+    .doacao-section {
+        flex-direction: column;
+    }
+
+}
