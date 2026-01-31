@@ -110,6 +110,80 @@ h3 {
     left: 5px;
 }
 
+// SECTION 2
+
+.section-2 {
+    padding: 0px 40px;
+    /* font-size: 12px; */
+    height: 150px;
+    position: relative;
+}
+
+.section-2-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    z-index: 10;
+    
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+
+    padding: 0px 40px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.266);
+    align-items: center;
+    background-color: white;
+}
+
+.section-2-1-1 {
+    max-width: 550px;
+}
+
+.section-2-1  .btn-2 {
+    background-color: var(--cor-primaria);
+    margin: 50px;
+    width: 70%;
+}
+
+.button-do-lado {
+    align-items: center;
+}
+
+.section-3 {
+    position: relative;
+
+    padding: 0px 40px;
+    height: 400px;
+    // background-image: url('../assets/img/imagem_doe.jpg');
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.numeros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.numeros span {
+    font-size: 42px;
+    color: var(--cor-secundaria);
+    font-weight: 1000;
+}
+
+.numeros p {
+    color: white;
+    font-weight: 800;
+}
+
 @media (max-width: 930px) {
 
     header {
@@ -146,6 +220,42 @@ h3 {
     .btn-2 {
         width: 100%;
         margin: 20px 10px 0 0;
+    }
+
+
+
+    .section-2-1 {
+        /* display: block;
+         */
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        flex-direction: column;
+        height: 400px;
+        align-items: initial;
+    }
+
+    .section-2-1 h3 {
+        font-size: 24px;
+    }
+
+    .section-2-1  .btn-2 {
+        margin: 0px;
+        width: 100%;
+        align-items: normal;
+    }
+
+    .section-3 {
+        height: 700px;
+    }
+
+    .section-4 {
+        padding: 0px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
     }
 
 }
