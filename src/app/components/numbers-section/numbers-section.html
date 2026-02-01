@@ -1,0 +1,11 @@
+<section class="section-3" #counterSection>
+  <div class="numeros">
+    @for (item of counters; track item.label) {
+      <div class="numero">
+        <span>+</span>
+        <span class="num">{{ item.current | number: '1.0-0' : 'pt-BR' }}</span>
+        <p>{{ item.label }}</p>
+      </div>
+    }
+  </div>
+</section>
