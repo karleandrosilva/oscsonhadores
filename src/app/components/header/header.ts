@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Navbar } from "../navbar/navbar";
 import { NgOptimizedImage } from '@angular/common';
 
@@ -10,4 +10,6 @@ import { NgOptimizedImage } from '@angular/common';
 })
 export class Header {
 
+  @Input("info-page") nomePagina = "";
+  
 }
