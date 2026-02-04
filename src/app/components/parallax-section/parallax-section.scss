@@ -1,0 +1,18 @@
+.efeito-parallax {
+  background-image: url('/imgs/imagem_doe.jpg');
+  background-position: center;
+  height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+
+#testeee {
+  width: 100%;
+}
