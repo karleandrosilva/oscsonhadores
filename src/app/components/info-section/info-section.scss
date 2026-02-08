@@ -7,6 +7,10 @@ h2 {
     background-color: var(--cor-primaria);
 }
 
+.section-1 .btn-2:hover {
+  background-color: var(--cor-secundaria);
+}
+
 .section-1 {
     display: flex;
     justify-content: space-around;

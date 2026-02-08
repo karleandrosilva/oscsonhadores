@@ -1,0 +1,28 @@
+.doacao-info li {
+  list-style: none;
+  
+}
+
+.voluntario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.btn-voluntario {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn-voluntario:hover {
+  background-color: var(--cor-secundaria);
+}

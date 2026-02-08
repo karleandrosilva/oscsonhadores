@@ -1,9 +1,10 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-info-section',
-  imports: [NgOptimizedImage],
+  imports: [NgOptimizedImage, RouterLink],
   templateUrl: './info-section.html',
   styleUrl: './info-section.scss',
 })
